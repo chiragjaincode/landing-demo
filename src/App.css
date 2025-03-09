@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.title-main {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1072px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.card-item {
+    display: flex;
+}
+
+.MuiCardMedia-root {
+    min-width: 200px;
+}
+
+.headermain {
+    background-color: #fff;
+    color: #1C1812;
+}
+
+.headermain button {
+    color: #1C1812;
+}
+
+.btn-primary {
+    background-color: #514432;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ .hero-section .content {
+    max-width: 530px;
+ }
+.hero-section .left-section  {
+    width: calc(100% - 400px - 24px); 
+    margin-right: 24px; 
+}
+.hero-section .right-section {
+    width: 100%;
+    width: 400px;
+}
+@media (max-width: 767.98px) {
+    .hero-section .left-section  {
+       width: 100%;
+       margin-right: 0; 
+       padding: 40px 24px;
+    }
+
+    .hero-section .right-section {
+        width: 100%; 
+        max-height: 100%;
+    }
+
+    .hero-section .right-section img {
+        width: 100%; 
+        max-height: 100%;
+    }
+    .hero-section.container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .title-main {
+      font-size: 40px;
+      line-height: 1.2;
+    }
+
+    .btn-primary {
+        font-weight: 400;
+    }
+    
+}
+
+
+
+.hero-section .right-section img {
+    width: 100%;
+}
+
+body p.MuiTypography-root  {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #65625E;
+}
